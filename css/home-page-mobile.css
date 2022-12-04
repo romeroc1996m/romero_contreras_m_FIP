@@ -1,0 +1,347 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Domine', serif;
+    color: #ECEAE6;
+ }
+ 
+ h1, h2, h3, h4, h5, p {
+    margin: 0;
+    padding: 0;
+ }
+ 
+ a {
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+ }
+ 
+ input, textarea {
+    display: grid;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ .hidden {
+    display: none;
+ }
+ 
+ .grid {
+    padding-left: 5px;
+    padding-right: 20px;
+    display:grid;
+    grid-template-columns: repeat(4, 95px);
+    grid-column-gap: 18px;
+    grid-row-gap: 16px;
+ }
+ 
+ .container {
+    width: 439px;
+    margin: auto;
+    padding: auto;
+    background-color: pink;
+ }
+ 
+ /* header */
+ 
+ #main-header {
+    position: sticky;
+    background-color: #000000;
+    font-size: 30px;
+    top:0px;
+    height:100px;
+ }
+ 
+ .logo {
+    grid-column: 1/2;
+    margin-top:-5px;
+    width: 100px;
+    height: 100px;
+ }
+ 
+ #main-nav {
+    grid-column: 2/2;
+    max-width: 480px;
+    margin: auto;
+    background-color: #555;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .main-nav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  .main-nav #myLinks {
+    display: none;
+  }
+ 
+ 
+ 
+ /* section1 */
+ 
+ #contentContainer {
+    grid-column: 1/4;
+    background-image: url(../images/HP-Mobile/bus\ _woman.jpg) ;
+    background-size: cover;
+    width: 439px;
+    height: 529px;
+ }
+  
+ .title1 {
+    grid-column: 1/5;
+    font-size: 38px;
+ } 
+ 
+ .p1 {
+    grid-column: 1/5;
+    font-size: 18px;
+    margin-top: 9%;
+    text-align: left;
+ }
+ 
+ .button1 {
+    grid-column: 1/4;
+    margin-top: 20%;
+    background-color: #0D0D0D;
+    border: 2px solid #ECEAE6;
+    border-radius: 22px;
+    width: 150px;
+    height: 80px;
+    font-family: 'Domine', serif;
+    color: #ECEAE6;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1;
+    padding: 1rem 1.6rem;
+    text-align: center;
+    text-decoration: none #000000 solid;
+    text-decoration-thickness: auto;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+    touch-action: manipulation;
+  }
+  
+  .button1:hover {
+    background-color: #0D0D0D;
+    color: #ECEAE6;
+  }
+ 
+ /* section2 */
+ 
+ #contentContainer1 {
+    grid-column: 1/4;
+    background-color: #0D0D0D;
+    height: 752px;
+  }
+  
+ .title2 {
+    grid-column: 2/4;
+    font-size: 58px;
+    margin-top: 20%;
+ }
+ 
+ .image_gallery {
+    grid-column: 1/4;
+ }
+ 
+ 
+ /* section3 - Additional content*/
+ 
+ #contentContainer2 {
+    grid-column: 1/4;
+    background-color: #000000;
+    height: 2252px;
+  }
+ 
+  .title3 {
+    grid-column: 1/2;
+    font-size: 38px;
+    margin-left: -70px;
+  }
+ 
+  .title4 {
+       grid-column: 1/4;
+       font-size: 30px;
+       margin-left: 40px;
+  }
+  
+  .p2 {
+    grid-column: 1/4;
+    font-size: 18px;
+    margin-left: 40px;
+  }
+ 
+ .image_learn {
+    grid-column: 1/4;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 40px;
+ }
+ 
+ .image_learn1 {
+    grid-column: 1/4;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+ 
+ .image_learn2 {
+    grid-column: 1/4;
+    border-radius: 50%;
+    margin-top: 60px;
+    margin-left: 40px;
+ }
+ 
+ .image_learn3 {
+    grid-column: 1/4;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 40px;
+ }
+ 
+ .button2 {
+    grid-column: 2/4;
+    margin-top: 70px;
+    background-color: #0D0D0D;
+    border: 2px solid #ECEAE6;
+    border-radius: 22px;
+    width: 300px;
+    height: 100px;
+    font-family: 'Domine', serif;
+    color: #ECEAE6;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 1;
+    padding: 1rem 1.6rem;
+    text-align: center;
+    text-decoration: none #000000 solid;
+    text-decoration-thickness: auto;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+    touch-action: manipulation;
+  }
+  
+  .button2:hover {
+    background-color: #0D0D0D;
+    color: #ECEAE6;
+  }
+ 
+ /* Contact Form */
+ 
+ #contentContainer3 {
+    grid-column: 1/4;
+    background-color: #000000;
+    height: 1064px;
+  }
+ 
+  .title3 {
+    grid-column: 2/7;
+    margin-top: 40px;
+    font-size: 58px;
+  }
+ 
+ #contact-form-fields {
+    grid-column: 6/12;
+    height: 1000px;
+ }
+ 
+ input, textarea {
+    padding: 22px;
+    border: 2px solid #ECEAE6;
+    background-color: #000000;
+    color: #ECEAE6;
+    font-family: 'Domine', serif;
+    font-size: 25px;
+    border-radius: 15px;
+ }
+ 
+ #contact-form-fields textarea {
+    height: 300px;
+    width: 375px;
+ }
+ 
+ #contact-form-fields form {
+    display: grid;
+    flex-direction: column;
+ }
+ 
+ input [type="submit"] {
+    padding: 22px;
+    border: 2px solid #ECEAE6;
+    background-color: #ECEAE6;
+    border-radius: 15px;
+    margin-bottom: -600px;
+    margin-left: -200px;
+    font-family: 'Domine', serif;
+ }
+ 
+ input [type="submit"] :hover {
+    background-color: #ECEAE6;
+    border-radius: 0;
+ }
+ 
+ /* footer */
+ 
+ #contentContainer4 {
+    grid-column: 1/4;
+    background-color: #0D0D0D;
+    height: 572px;
+  }
+ 
+ .title5 {
+    grid-column: 1/4;
+    margin-top: 40px;
+    font-size: 58px;
+ }
+ 
+ input1 [type="submit"] {
+    padding: 22px;
+    border: 2px solid #ECEAE6;
+    background-color: #ECEAE6;
+    border-radius: 15px;
+    margin-bottom: -600px;
+    margin-left: -200px;
+    font-family: 'Domine', serif;
+ }
+ 
+ input [type="submit"] :hover {
+    background-color: #ECEAE6;
+    border-radius: 0;
+ }
+ 
+ .socialmedia {
+    margin-left: -150px;
+    margin-bottom: -200px;
+ }
+ 
+ .button {
+    grid-column: 1/2;
+    margin-top: 300px;
+    margin-left: -300px;
+    background-color: #000000;
+    border: 2px solid #ECEAE6;
+    border-radius: 22px;
+    width: 300px;
+    color: #ECEAE6;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.1rem;
+    line-height: 1;
+    padding: 1rem 1.6rem;
+    text-align: center;
+    text-decoration: none #0D0D0D solid;
+    text-decoration-thickness: auto;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+    touch-action: manipulation;
+  }
+  
+  .button:hover {
+    background-color: #0D0D0D;
+    color: #fff;
+  }
